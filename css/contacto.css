@@ -1,0 +1,6 @@
+#imagen{
+    background: url("../img/img-taller.jpg");
+    background-size: cover;
+    opacity: 0.85;
+    height: 40vh;
+}

@@ -1,0 +1,47 @@
+/*ESTILOS PARA EL INDEX*/
+#imagenServicio{
+    background: url("../img/img-mecanicaGeneral.jpg");
+    background-size: cover;
+    opacity: 0.85;
+    height: 40vh;
+}
+
+#imagenServicioMecanicaGeneral{
+    background: url("../img/img-taller-caja-carousel2.jpg");
+    background-size: cover;
+    opacity: 0.85;
+    height: 40vh;
+}
+
+#imagenServicioSuspension{
+    background: url("../img/img-taller4.jpg");
+    background-size: cover;
+    opacity: 0.85;
+    height: 40vh;
+}
+
+#imagenServicioCaja{
+    background: url("../img/img-taller5.jpg");
+    background-size: cover;
+    opacity: 0.85;
+    height: 40vh;
+}
+
+#imagenServicioElectronica{
+    background: url("../img/img-taller6.jpg");
+    background-size: cover;
+    opacity: 0.85;
+    height: 40vh;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 100px;
+}
+
+.card-h5{
+    font-size: 30px;
+    color: darkslategray;
+}
+
+
