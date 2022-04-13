@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/prueba de css proyecto1.css">
     
-    <title>Perfil Mecánico</title>
+    <title>Perfil Administrador</title>
   </head>
 
   <body>  
@@ -38,7 +38,7 @@
         <!-- Colapsar Menu -->
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-uppercase font-weight-bold">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -85,45 +85,122 @@
       </nav>
       <!--=== FIN BARRA DE NAVEGACION ===-->
 
-      <!--Perfil de los Mecanicos-->
+      <!--Perfil del Administrador-->
       <div class="container-fluid  bg-primary py-2">
         <div class="container text-white text-center">
-            <h1>Perfil de Usuario (Mecánico)</h1>
+            <h1>Perfil de Usuario</h1>
+            <h2>(Administrador)</h2>
         </div>
       </div>
       <div class="container-fluid  ">
         <div class="container text-justify py-3">
             <div class="row mx-auto  justify-content-center py-2 px-2">
                 
-                <div class="mt-3 mb-4 p-0 mr-3 text-center col-sm-3 col-md-12 col-lg-4">
-                    <img class="  img-mec rounded-circle" src="img/person-1.jpg" width="230px" alt="person-1">
+                <div class="my-3 text-center col-sm-3 col-md-12 col-lg-4">
+                    <img class="  img-mec rounded-circle" src="img/admin-1.jpg" width="100%" alt="person-1">
                 </div>
 
                 <div class="div-mec col-sm-12 col-md-12 col-lg-8">
-                    <h3 class="fw-bold mb-0">Steven Simon</h3>
-                    <small class="text-muted">Especialista en Eléctronica Automótriz</small>
-                    <p>Debe registrar los detalles de la atención de cada cliente y luego cargar las fotografias correspondientes a la atención entregada.</p>
-                    <p>Una vez cargue los documentos, debe enviarlos al administrador para que sean publicados en la pagína web</p>
-                    <div>
-                        <a class="btn btn-primary" href="galeria.html" role="button">Ir a sus trabajos</a>
-                        <button type="button" class="btn btn-success">52 Mantenciones</button>
-                    </div>
+                    <h3 class="fw-bold mb-0">Jimena Carloncha Prince</h3>
+                    <small class="text-muted">Administradora Web Taller MacWeen</small>
+                    <p>Revise y apruebe las publicaciones de los mecánicos del Taller MacWeen</p>
+                    <p>Cuando apruebe la publicación estas serán publicados en la pagína web del taller</p>
                 </div>
             </div>
         </div>
       </div>
 
-      <div class="container-fluid  py-2">
-        <div class="container">
-            <h2>Generar publicación de atención</h2>
+
+
+      <!-- REVISION-->
+      <div class="container-fluid ">
+        <div class="container text-justify py-3">
+          <div class="row mx-auto fondo-cir   py-3 px-2">
+            <h2 class="py-2 px-3">Nuevas publicaciones</h2>
+            <div class=" col-sm-12 col-md-12 col-lg-12">
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Mecánico</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" size="100" maxlength="100" placeholder="ID_mecanico 01 - Steven Simon">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary mb-2">Revisar</button>
+                  </div>
+                </div>
+                <div class="form-row align-items-center">
+                  <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Mecánico</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" size="100" maxlength="100" placeholder="ID_mecanico 02 - George Stevens">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary mb-2">Revisar</button>
+                  </div>
+                </div>
+                <div class="form-row align-items-center">
+                  <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Mecánico</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" size="100" maxlength="100" placeholder="ID_mecanico 03 - David Smith">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary mb-2">Revisar</button>
+                  </div>
+                </div>
+                <div class="form-row align-items-center">
+                  <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Mecánico</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" size="100" maxlength="100" placeholder="ID_mecanico 04 - Howarrd Newman">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary mb-2">Revisar</button>
+                  </div>
+                </div>
+                <div class="form-row align-items-center">
+                  <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Mecánico</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" size="100" maxlength="100" placeholder="ID_mecanico 05 - Juan Pérez">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary mb-2">Revisar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
 
+
       <!--INPUT FORMULARIO DE ATENCION-->
-      <div class="container-fluid mb-5">
+      <div class="container-fluid ">
         <div class="container text-justify py-3">
-          <div class="row mx-auto fondo-cir py-3 px-2">
-            
+          <div class="row mx-auto fondo-cir   py-3 px-2">
+            <h2 class="px-3 py-2">Revisión de publicación</h2>
             <div class=" col-sm-12 col-md-12 col-lg-12">
               <form>
                 <!--INPUT CATEGORIA CON DESPLEGABLE DE OPCIONES -->
@@ -132,99 +209,93 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Categoría de Servicio</span>
                     </div>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Selecciona una opción</option>
-                      <option>Eléctronica Automótriz</option>
-                      <option>Suspención y Dirección</option>
-                      <option>Caja de Cambios</option>
-                      <option>Mecánica General</option>
-                    </select>
+                    <input class="form-control bg-light" type="text" placeholder="Mecánica General" readonly>
                   </div>
                 </div>
-  
+
                 <!--INPUT FECHA DE ATENCIÓN CON CALENDARIO SELECIONABLE -->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Fecha atención</span>
                     </div>
-                    <input type="date" class="form-control">
+                    <input class="form-control bg-light" type="date" placeholder="10/04/2022" readonly>
                   </div>
                 </div>
-  
+
                 <!--INPUT MARCA VEHICULO --PUEDE CAMBIARSE POR UN SELECT DE OPCIONES -->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Marca vehículo</span>
                     </div>
-                    <input type="text" class="form-control">
+                    <input class="form-control bg-light" type="text" placeholder="Nissan" readonly>
                   </div>
                 </div>
-  
+
               <!--INPUT MODELO VEHICULO --PUEDE CAMBIARSE POR UN SELECT DE OPCIONES -->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Modelo vehículo</span>
                     </div>
-                    <input type="text" class="form-control">
+                    <input class="form-control bg-light" type="text" placeholder="Terrano" readonly>
                   </div>
                 </div>
-  
+
                 <!--INPUT AÑO VEHICULO --PUEDE CAMBIARSE POR UN SELECT DE OPCIONES -->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Año vehículo</span>
                     </div>
-                    <input type="text" class="form-control">
+                    <input class="form-control bg-light" type="text" placeholder="2015" readonly>
                   </div>
                 </div>
-  
+
                 <!--INPUT KILOMETRAJE VEHICULO --PUEDE CAMBIARSE SOLO POR NUMEROS -->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Kilometraje</span>
                     </div>
-                    <input type="text" class="form-control">
+                    <input class="form-control bg-light" type="text" placeholder="150.000" readonly>
                   </div>
                 </div>
-  
+
                 <!--INPUT COMBUSTIBLE VEHICULO --CON SELECTOR DE OPCIONES -->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Combustible</span>
                     </div>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Selecciona una opción</option>
-                      <option>Gasolina</option>
-                      <option>Diesel</option>
-                    </select>
+                    <input class="form-control bg-light" type="text" placeholder="Gasolina" readonly>
                   </div>
                 </div>
-  
+
+
                 <!--INPUT TEXT AREA - LISTADO DE MATERIALES PODRIA CREARSE EN UNA LISTA ENUMERADA -->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Listado de materiales</span>
                     </div>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3" readonly></textarea>
                   </div>
                 </div>
-  
+
+
+
                 <!--INPUT TEXT AREA - DIAGNOSTICO DE VEHICULO-->
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="">Diagnóstico</span>
                     </div>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3" readonly></textarea>
                   </div>
                 </div>
+
 
                 <!--INPUT PARA CARGAR DOCUMENTOS, EN ESTE CASO FOTOGRAFIAS -->
                 <div class="input-group mb-3">
@@ -237,20 +308,19 @@
                     <span class="input-group-text" id="inputGroupFileAddon02">Cargar</span>
                   </div>
                 </div>
-  
+
               </form>
             </div>
-            <div class="d-flex m-5">
-              <p>Una vez complete el formulario, publique su trabajo, el cual estará sujeto a la validación y aprobación del administrador.</p>
-            </div>
-            <hr>
-            <div class="align-items-center mx-3 mb-3">
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Publicar trabajo</button>
+            <div class="container" >
+              <div class="row">
+                <button type="button" class="btn btn-lg btn-success m-3">Aprobar puplicación</button>
+                <button type="button" class="btn btn-lg btn-danger m-3">Rechazar publicación</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!--=== FIN PERFIL MECANICO ===-->
+      <!--=== FIN PERFIL ADMINISTRADOR ===-->
 
     <!--=== PIE DE PAGINA (FOOTER) ===-->
     <footer class="text-center text-lg-start bg-dark text-white">
